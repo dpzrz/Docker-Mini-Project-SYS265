@@ -30,4 +30,6 @@ The git command used to copy this repository is `git clone` then after enter the
 
 <img width="258" alt="image" src="https://github.com/dpzrz/Docker-Mini-Project-SYS265/assets/112894794/96a6d04a-837d-4818-9e77-d83a707cb144">
 
-Just cd into the main folder and use the command `docker-compose up -d` this should start and install the cointaiiners, check the status of the newly installed cointainers using `docker ps`. This command also allowys you to see which ports you'll need to enter for our URL. Navigate to your IP address the add : along with the port number for Prometheus and Graphana.
+Just cd into the main folder and use the command `docker-compose up -d` this should start and install the cointaiiners, check the status of the newly installed cointainers using `docker ps`. 
+
+This command also allowys you to see which ports you'll need to enter for our URL. Navigate to your IP address the add : along with the port number for Prometheus and Graphana.
