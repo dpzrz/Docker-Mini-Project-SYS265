@@ -26,6 +26,8 @@ To install git for Unbuntu use the command `sudo apt install git`. The url of th
 
 On our `mgmnt` box were going to PuTTy into our docker box. The ~ directory should have no files and we wont need to create a folder as git will do that for us.
 
-The git command used to copy this repository is `git clone` then after enter the url you see when you click the green code button drop-down menu.
+The git command used to copy this repository is `git clone` then after enter the url you see when you click the green code button drop-down menu. After this command you can see the folder from my repo and all the .yml and .yaml files.
 
+<img width="258" alt="image" src="https://github.com/dpzrz/Docker-Mini-Project-SYS265/assets/112894794/96a6d04a-837d-4818-9e77-d83a707cb144">
 
+Just cd into the main folder and use the command `docker-compose up -d` this should start and install the cointaiiners, check the status of the newly installed cointainers using `docker ps`.
