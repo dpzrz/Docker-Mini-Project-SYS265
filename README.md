@@ -7,7 +7,7 @@ Goal: Deploy [Prometheus](https://prometheus.io/docs/introduction/overview/) a s
 
 This service uses the docker-compose sysntax the same type we used to install Wordpress.
 
-Were working with a file system that includes a compose folder for Prometheus and two sub-folders grafana & prometheus. Each folder will house their respective `.yml` file. Along with this we have one `.yaml` file in the main Prometheus folder. 
+Were working with a file system that includes a compose folder for Prometheus and two sub-folders grafana-config & prometheus-config. Each folder will house their respective `.yml` file. Along with this we have one `.yaml` file in the main Prometheus folder. 
 
 
 
