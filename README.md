@@ -22,4 +22,4 @@ The modification occurs in the main `docker-compose.yaml` file. I'm going to cha
 
 After this has been changed we can start our deployment. For ease of use I'm trying out git.
 
-To install git for Unbuntu use the command `sudo apt install git`. The url of this repo is ` w`
+To install git for Unbuntu use the command `sudo apt install git`. The url of this repo is `https://github.com/dpzrz/Docker-Mini-Project-SYS265.git`
