@@ -22,4 +22,10 @@ The modification occurs in the main `docker-compose.yaml` file. I'm going to cha
 
 After this has been changed we can start our deployment. For ease of use I'm trying out git.
 
-To install git for Unbuntu use the command `sudo apt install git`. The url of this repo is `https://github.com/dpzrz/Docker-Mini-Project-SYS265.git`
+To install git for Unbuntu use the command `sudo apt install git`. The url of this repo is `https://github.com/dpzrz/Docker-Mini-Project-SYS265.git`.
+
+On our `mgmnt` box were going to PuTTy into our docker box. The ~ directory should have no files and we wont need to create a folder as git will do that for us.
+
+The git command used to copy this repository is `git clone` then after enter the url you see when you click the green code button drop-down menu.
+
+
