@@ -3,7 +3,7 @@ Mini project for SYS-265
 
 > I want to utlize `git` for this assignmnet and this repository will be very important.
 
-Goal: Deploy [Prometheus](https://prometheus.io/docs/introduction/overview/) a system monitoring service
+Goal: Deploy [Prometheus](https://prometheus.io/docs/introduction/overview/) a system monitoring service via Docker
 
 This service uses the docker-compose sysntax the same type we used to install Wordpress.
 
