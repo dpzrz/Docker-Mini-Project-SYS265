@@ -9,7 +9,7 @@ This service uses the docker-compose sysntax the same type we used to install Wo
 
 Were working with a file system that includes a compose folder for Prometheus and two sub-folders grafana-config & prometheus-config. Each folder will house their respective `.yml` file. Along with this we have one `.yaml` file in the main Prometheus folder. 
 
-The modification occurs in the main `docker-compose.yaml` file. I'm going to change the admin username and password so we dont have to use the default user credentials. This cred change is for [Grafa](https://grafana.com/oss/grafana/).
+The modification occurs in the main `docker-compose.yaml` file. I'm going to change the admin username and password so we dont have to use the default user credentials. This cred change is for [Grafana](https://grafana.com/oss/grafana/).
 
 
  This is the piece of code we'll be changing.
@@ -30,4 +30,4 @@ The git command used to copy this repository is `git clone` then after enter the
 
 <img width="258" alt="image" src="https://github.com/dpzrz/Docker-Mini-Project-SYS265/assets/112894794/96a6d04a-837d-4818-9e77-d83a707cb144">
 
-Just cd into the main folder and use the command `docker-compose up -d` this should start and install the cointaiiners, check the status of the newly installed cointainers using `docker ps`.
+Just cd into the main folder and use the command `docker-compose up -d` this should start and install the cointaiiners, check the status of the newly installed cointainers using `docker ps`. This command also allowys you to see which ports you'll need to enter for our URL. Navigate to your IP address the add : along with the port number for Prometheus and Graphana.
