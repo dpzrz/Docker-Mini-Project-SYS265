@@ -17,7 +17,7 @@ The modification occurs in the main `docker-compose.yaml` file. I'm going to cha
 ```
  environment:
       - GF_SECURITY_ADMIN_USER=diego
-      - GF_SECURITY_ADMIN_PASSWORD=ILOVESYS265
+      - GF_SECURITY_ADMIN_PASSWORD=ILOVESYS265!
 ```
 
 After this has been changed we can start our deployment. For ease of use I'm trying out git.
